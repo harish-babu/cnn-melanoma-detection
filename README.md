@@ -86,9 +86,12 @@ The final model has shown good accuracies on both the training and validation da
 ![Final model accuracy](images/final-training-accuracy.png)
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- Tensorflow
+- Keras
+- Numpy
+- Pandas
+- Augmentor
+- Visualkeras
 
 
 ## Acknowledgements
