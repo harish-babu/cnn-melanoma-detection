@@ -46,12 +46,14 @@ The data set contains the following diseases:
    - Chose an appropriate optimiser and loss function for model training
    - Trained the model for ~30 epochs
    - Wrote the findings after the model fit. Checked for overfitting and underfitting
+![View of the first CNN model](images/first-model-image.png)
 - **Data Augmentation** → Chose an appropriate data augmentation strategy to resolve underfitting/overfitting
 - **Model Building & training on the augmented data** →
   - Created a CNN model, which can accurately detect 9 classes present in the dataset. While building the model rescaled images to normalize pixel values between (0,1).
   - Chose an appropriate optimiser and loss function for model training
   - Trained the model for ~30 epochs
   - Wrote the findings after the model fit, and commented whether the overfitting and underfitting is fixed or not
+![View of the intermediate CNN model](images/data-augment-image.png)
 - **Class distribution** → Examined the current class distribution in the training dataset 
    - Which class has the least number of samples? **Seaborrheic keratosis least number of samples**
    - Which classes dominate the data in terms of the proportionate number of samples? **Melanoma, pigmented benign keratosis and basal cell carcinoma dominate the samples**
@@ -61,6 +63,8 @@ The data set contains the following diseases:
   - Chose an appropriate optimiser and loss function for model training
   - Trained the model for ~50 epochs
   - Wrote the findings after the model fit, the overfitting was fixed and the accuracy improved
+![View of the intermediate CNN model](images/final-model-image.png)
+
 
 ## Conclusions
 - Conclusion 1 from the analysis
@@ -68,7 +72,6 @@ The data set contains the following diseases:
 - Conclusion 3 from the analysis
 - Conclusion 4 from the analysis
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
@@ -76,21 +79,10 @@ The data set contains the following diseases:
 - library - version 2.0
 - library - version 3.0
 
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
-
+I give credit to my wife for putting up with all the hardships as I spend time to finish the assignments
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by - [harish-babu](https://github.com/harish-babu)
 
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
